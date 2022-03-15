@@ -10,7 +10,7 @@ namespace ENGLISH_CENTER_MVC_ASP.NET_CORE.Controllers
         // GET: LoginController
         public IActionResult Login()
         {
-            return View();
+            return View(); 
         }
         [HttpPost]
         public IActionResult Login([Bind] NhanvienAccount nhanvienAccount)

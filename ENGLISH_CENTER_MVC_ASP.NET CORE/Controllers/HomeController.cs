@@ -23,6 +23,10 @@ namespace ENGLISH_CENTER_MVC_ASP.NET_CORE.Controllers
             return View();
         }
 
+        public IActionResult manager()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
